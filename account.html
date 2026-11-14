@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml" />
+    <meta name="description" content="Личный кабинет РуСток: подписка, скачивания, история платежей и документы." />
+    <title>Личный кабинет — РуСток</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="theme.css?v=2" />
+    <link rel="stylesheet" href="ui.css?v=2" />
+    <link rel="stylesheet" href="cabinet.css?v=2" />
+  </head>
+  <body>
+    <header class="bar">
+      <a class="brand" href="index.html">РуСток</a>
+      <nav>
+        <a href="catalog.html?type=photo">Каталог</a>
+        <a href="pricing.html">Тарифы</a>
+        <a href="business.html">Юрлицам</a>
+        <a class="active" href="account.html">Кабинет</a>
+      </nav>
+    </header>
+
+    <main class="cabinet">
+      <section class="cabinet-hero">
+        <div class="cabinet-hero-copy">
+          <span class="eyebrow">ЛИЧНЫЙ КАБИНЕТ</span>
+          <h1>Ваш <em>РуСток.</em></h1>
+          <p>Подписка, скачивания, платежи и документы — в одном месте. Кабинет демонстрационный: данные сохраняются в браузере.</p>
+        </div>
+        <div class="cabinet-badge">
+          <span class="eyebrow">АККАУНТ</span>
+          <strong id="account-email">Гость</strong>
+          <small id="account-company">Без компании</small>
+        </div>
+      </section>
+
+      <section class="cabinet-empty" id="account-empty" hidden>
+        <div>
+          <span class="eyebrow">ПОДПИСКИ ПОКА НЕТ</span>
+          <h2>Откройте весь каталог.</h2>
+          <p>Start — 100 скачиваний в месяц, Pro — 500 и AI-поиск, Enterprise — без лимита и с документами для бухгалтерии.</p>
+        </div>
+        <div class="cabinet-empty-actions">
+          <a class="buy" href="pricing.html">Выбрать тариф <span>→</span></a>
+          <button class="ghost-button" id="activate-demo" type="button">Включить демо-подписку</button>
+        </div>
+      </section>
+
+      <section class="plan-card" id="account-active" hidden>
+        <div class="plan-card-top">
+          <span class="eyebrow">АКТИВНАЯ ПОДПИСКА</span>
+          <span class="status-pill">Активна</span>
+        </div>
+        <div class="plan-card-title">
+          <h2 id="plan-name">—</h2>
+          <strong id="plan-price">—</strong>
+        </div>
+        <p class="plan-audience" id="plan-audience">—</p>
+        <ul class="plan-features" id="plan-features"></ul>
+        <div class="plan-usage">
+          <div class="plan-usage-head"><span>Скачивания в этом месяце</span><b id="plan-usage">0 из 100</b></div>
+          <div class="progress-track"><i id="plan-progress"></i></div>
+        </div>
+        <div class="plan-meta">
+          <div><span>Следующее списание</span><strong id="plan-renew">—</strong></div>
+          <div><span>Стоимость</span><strong id="plan-cost">—</strong></div>
+          <div><span>Осталось</span><strong id="plan-left">—</strong></div>
+        </div>
+        <div class="plan-actions">
+          <a class="buy" href="catalog.html?type=photo">Перейти в каталог <span>→</span></a>
+          <a class="ghost" href="pricing.html">Сменить тариф</a>
+          <button class="plan-cancel" id="cancel-subscription" type="button">Отменить подписку</button>
+        </div>
+      </section>
+
+      <section class="cabinet-grid">
+        <article class="account-panel">
+          <div class="panel-head">
+            <div><span class="eyebrow">ИСТОРИЯ</span><h2>Платежи</h2></div>
+            <span class="panel-count" id="payments-count">0</span>
+          </div>
+          <div class="payments" id="payments"></div>
+        </article>
+        <article class="account-panel">
+          <div class="panel-head">
+            <div><span class="eyebrow">БУХГАЛТЕРИЯ</span><h2>Документы</h2></div>
+            <a class="panel-link" href="business.html">Для юрлиц →</a>
+          </div>
+          <div class="doc-list">
+            <div class="doc-row"><div><strong>Договор-оферта</strong><small>PDF · публичная оферта</small></div><button class="doc-download" data-doc="Договор-оферта" type="button">Скачать</button></div>
+            <div class="doc-row"><div><strong>Счёт на оплату</strong><small>PDF · с НДС</small></div><button class="doc-download" data-doc="Счёт на оплату" type="button">Скачать</button></div>
+            <div class="doc-row"><div><strong>Акт и УПД</strong><small>PDF · по закрытым периодам</small></div><button class="doc-download" data-doc="Акт и УПД" type="button">Скачать</button></div>
+          </div>
+          <p class="panel-note">В рабочей версии документы формируются автоматически после оплаты.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="cabinet-footer">
+      <span>© 2026 РуСток · демо-кабинет</span>
+      <div><a href="index.html">Главная</a><a href="catalog.html?type=photo">Каталог</a><a href="pricing.html">Тарифы</a><a href="business.html">Юрлицам</a></div>
+    </footer>
+
+    <script src="data.js?v=5"></script>
+    <script src="ui.js?v=2"></script>
+    <script src="account.js?v=1"></script>
+  </body>
+</html>

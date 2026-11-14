@@ -1,0 +1,157 @@
+.asset {
+  color: inherit;
+}
+
+.asset-link {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.asset-link:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 4px;
+}
+
+.sub-badge {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 5px 7px;
+  background: #151515;
+  color: #f5f0e8;
+  font-size: 0.54rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sub-strip {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  padding: 13px 7vw;
+  border-top: 1px solid #c9c0b2;
+  border-bottom: 1px solid #c9c0b2;
+  background: #fbf6ee;
+  color: inherit;
+  text-decoration: none;
+}
+
+.sub-strip strong {
+  font-size: 0.8rem;
+}
+
+.sub-strip small {
+  font-size: 0.66rem;
+  font-weight: 600;
+  color: #7a7266;
+}
+
+.sub-strip b {
+  margin-left: auto;
+  font-size: 0.66rem;
+  font-weight: 800;
+}
+
+.sub-strip:hover b {
+  color: var(--red);
+}
+
+@media (max-width: 800px) {
+  .sub-strip {
+    padding: 13px 6vw;
+    gap: 8px 14px;
+  }
+
+  .sub-strip b {
+    margin-left: 0;
+  }
+}
+
+.asset-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 13px;
+}
+
+.asset-bottom b {
+  font-size: 0.73rem;
+}
+
+.heart {
+  border: 0;
+  background: none;
+  padding: 0 2px;
+  color: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.heart:hover,
+.heart.is-active {
+  color: var(--red);
+}
+
+.catalog-search {
+  display: flex;
+  width: min(100%, 540px);
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--ink);
+}
+
+.catalog-search input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  padding: 13px 0;
+  color: inherit;
+  font: 700 0.9rem Manrope, Arial, sans-serif;
+  outline: 0;
+}
+
+.catalog-search input::placeholder {
+  color: #8b8275;
+}
+
+.catalog-search button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: 800 0.68rem Manrope, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.catalog-search button:hover {
+  color: var(--red);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 800px) {
+  .catalog-search {
+    margin-top: 1.3rem;
+  }
+}

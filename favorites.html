@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml" />
+    <meta name="description" content="Избранные материалы РуСток: сохраните кадры и вернитесь к ним позже." />
+    <title>Избранное — РуСток</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="theme.css?v=2" />
+    <link rel="stylesheet" href="ui.css?v=2" />
+    <link rel="stylesheet" href="cabinet.css?v=2" />
+  </head>
+  <body>
+    <header class="bar">
+      <a class="brand" href="index.html">РуСток</a>
+      <nav>
+        <a href="catalog.html?type=photo">Каталог</a>
+        <a href="pricing.html">Тарифы</a>
+        <a href="business.html">Юрлицам</a>
+        <a class="active" href="favorites.html">Избранное</a>
+      </nav>
+    </header>
+
+    <main class="cabinet">
+      <section class="cabinet-hero">
+        <div class="cabinet-hero-copy">
+          <span class="eyebrow">ПОДБОРКА</span>
+          <h1>Ваше <em>избранное.</em></h1>
+          <p>Кадры, к которым хочется вернуться. Подборка хранится в этом браузере — вход не нужен.</p>
+        </div>
+        <div class="cabinet-badge">
+          <span class="eyebrow">В ПОДБОРКЕ</span>
+          <strong id="favorites-total">0</strong>
+          <small>материалов</small>
+        </div>
+      </section>
+
+      <section class="fav-toolbar" id="fav-toolbar" hidden>
+        <div class="fav-toolbar-copy">
+          <strong>Готово к работе</strong>
+          <span>Скачайте список или откройте материал, чтобы выбрать лицензию.</span>
+        </div>
+        <div class="fav-toolbar-actions">
+          <button class="buy" id="fav-download" type="button">Скачать подборку <span>↓</span></button>
+          <button class="ghost-button" id="fav-clear" type="button">Очистить</button>
+        </div>
+      </section>
+
+      <section class="fav-grid" id="favorites-grid" aria-live="polite"></section>
+
+      <section class="cabinet-empty" id="favorites-empty" hidden>
+        <div>
+          <span class="eyebrow">ПОКА ПУСТО</span>
+          <h2>Добавьте первый кадр.</h2>
+          <p>Нажмите на сердечко в каталоге — материал появится здесь. Подборка не теряется при перезагрузке.</p>
+        </div>
+        <div class="cabinet-empty-actions">
+          <a class="buy" href="catalog.html?type=photo">Открыть каталог <span>→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="cabinet-footer">
+      <span>© 2026 РуСток · демо-подборка</span>
+      <div><a href="index.html">Главная</a><a href="catalog.html?type=photo">Каталог</a><a href="account.html">Кабинет</a><a href="pricing.html">Тарифы</a></div>
+    </footer>
+
+    <script src="data.js?v=5"></script>
+    <script src="ui.js?v=2"></script>
+    <script src="favorites.js?v=1"></script>
+  </body>
+</html>

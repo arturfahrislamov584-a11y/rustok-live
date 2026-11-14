@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml" />
+    <meta name="description" content="Оформление заказа лицензий РуСток: состав корзины, данные покупателя и подтверждение." />
+    <title>Оформление заказа — РуСток</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="product.css?v=2" />
+    <link rel="stylesheet" href="cart.css?v=2" />
+    <link rel="stylesheet" href="checkout.css?v=2" />
+    <link rel="stylesheet" href="theme.css?v=2" />
+    <link rel="stylesheet" href="ui.css?v=2" />
+  </head>
+  <body>
+    <header class="bar">
+      <a class="brand" href="index.html">РуСток</a>
+      <nav>
+        <a href="catalog.html?type=photo">Фото</a><a href="catalog.html?type=video">Видео</a><a href="catalog.html?type=audio">Звук</a><a href="catalog.html?type=template">Шаблоны</a><a href="pricing.html">Тарифы</a><a href="courses.html">Курсы</a>
+      </nav>
+    </header>
+
+    <main class="checkout">
+      <section class="checkout-head">
+        <span class="eyebrow">ОФОРМЛЕНИЕ / ШАГ 02</span>
+        <h1>Почти <em>ваше.</em></h1>
+        <p id="checkout-subtitle">Проверьте состав заказа и оставьте данные покупателя. В рабочей версии лицензии и файлы придут на почту сразу после оплаты.</p>
+      </section>
+
+      <div class="checkout-layout" id="checkout-layout">
+        <form class="checkout-form" id="order-form">
+          <fieldset class="form-block">
+            <legend class="eyebrow">01 · Покупатель</legend>
+            <label for="buyer-name">Имя и фамилия<input id="buyer-name" name="name" autocomplete="name" placeholder="Лера Соколова" required /></label>
+            <label for="buyer-email">Email<input id="buyer-email" name="email" type="email" autocomplete="email" placeholder="lera@studio.ru" required /></label>
+            <label for="buyer-company">Компания <small>необязательно</small><input id="buyer-company" name="company" autocomplete="organization" placeholder="Студия «Север»" /></label>
+            <label for="buyer-inn">ИНН <small>для закрывающих документов</small><input id="buyer-inn" name="inn" inputmode="numeric" pattern="[0-9]{10}|[0-9]{12}" placeholder="10 или 12 цифр" /></label>
+          </fieldset>
+
+          <fieldset class="form-block">
+            <legend class="eyebrow">02 · Оплата</legend>
+            <div class="pay-options" role="radiogroup" aria-label="Способ оплаты">
+              <label class="pay-option is-active" data-pay="sbp">
+                <input type="radio" name="pay" value="sbp" checked />
+                <span class="pay-mark" aria-hidden="true"></span>
+                <b>СБП</b><small>по QR-коду</small>
+              </label>
+              <label class="pay-option" data-pay="card">
+                <input type="radio" name="pay" value="card" />
+                <span class="pay-mark" aria-hidden="true"></span>
+                <b>Карта</b><small>Мир, Visa, Mastercard</small>
+              </label>
+              <label class="pay-option" data-pay="invoice">
+                <input type="radio" name="pay" value="invoice" />
+                <span class="pay-mark" aria-hidden="true"></span>
+                <b>Счёт</b><small>для юрлиц</small>
+              </label>
+            </div>
+          </fieldset>
+
+          <label class="agree" for="buyer-agree">
+            <input id="buyer-agree" type="checkbox" name="agree" required />
+            <span>Принимаю условия лицензии РуСток и обработку персональных данных.</span>
+          </label>
+
+          <button class="buy" type="submit" id="submit-order">Оформить заказ <span>→</span></button>
+          <p class="checkout-note">Прототип: платёж не проводится, заказ сохраняется только в этом браузере.</p>
+        </form>
+
+        <aside class="order-summary" aria-label="Состав заказа">
+          <div class="summary-head"><span class="eyebrow">ВАШ ЗАКАЗ</span><span id="summary-count"></span></div>
+          <div id="summary-items"></div>
+          <div class="summary-row"><span id="summary-subtotal-label">Лицензии</span><strong id="summary-subtotal">0 ₽</strong></div>
+          <div class="summary-row"><span>Сервисный сбор</span><strong>0 ₽</strong></div>
+          <div class="summary-total"><span>Итого</span><strong id="summary-total">0 ₽</strong></div>
+          <p class="summary-hint" id="summary-hint">НДС включён. Лицензия бессрочная, территория — весь мир.</p>
+          <a class="summary-add" id="summary-add" href="catalog.html?type=photo">Добавить ещё материал →</a>
+        </aside>
+      </div>
+
+      <section class="order-success" id="order-success" hidden>
+        <span class="eyebrow">ЗАКАЗ СОБРАН</span>
+        <h1 id="success-title">Лицензии <em>в пути.</em></h1>
+        <p>Заказ <b id="order-number">—</b> сформирован. В рабочей версии здесь появилась бы оплата, а файлы и закрывающие документы — в студии автора.</p>
+        <div class="success-meta">
+          <div><span>Сумма</span><strong id="success-total">—</strong></div>
+          <div><span id="success-count-label">Позиций</span><strong id="success-count">—</strong></div>
+          <div><span>Email</span><strong id="success-email">—</strong></div>
+        </div>
+        <div class="success-actions">
+          <a class="buy" href="catalog.html?type=photo">В каталог <span>→</span></a>
+          <a class="ghost" id="success-secondary" href="author.html">Открыть студию автора</a>
+        </div>
+        <p class="checkout-note">Это прототип: оплата и письмо не отправлялись.</p>
+      </section>
+
+      <section class="checkout-empty" id="checkout-empty" hidden>
+        <span class="eyebrow">КОРЗИНА ПУСТА</span>
+        <h1>Пока <em>ничего.</em></h1>
+        <p>Выберите материал и лицензию — заказ соберётся сам, а здесь появятся состав и сумма.</p>
+        <a class="buy" href="catalog.html?type=photo">В каталог <span>→</span></a>
+      </section>
+    </main>
+
+    <script src="data.js?v=5"></script>
+    <script src="checkout.js?v=2"></script>
+      <script src="ui.js?v=2"></script>
+  </body>
+</html>

@@ -1,0 +1,264 @@
+.bar nav a.active {
+  color: var(--red);
+}
+
+.pricing {
+  padding: 0 4vw 6vw;
+}
+
+.pricing-head {
+  padding: 6vw 0 3vw;
+  border-bottom: 1px solid #c9c0b2;
+}
+
+.pricing-head h1 {
+  margin: 0.8rem 0 1.4rem;
+  font-size: clamp(3rem, 7vw, 7rem);
+  line-height: 0.78;
+  letter-spacing: -0.09em;
+}
+
+.pricing-head h1 em {
+  font-family: var(--serif);
+  font-weight: 700;
+}
+
+.pricing-head p {
+  max-width: 54ch;
+  margin: 0 0 14px;
+  font-size: 0.86rem;
+  font-weight: 500;
+  line-height: 1.62;
+}
+
+.pricing-note {
+  display: block;
+  max-width: 60ch;
+  font-size: 0.64rem;
+  font-weight: 600;
+  line-height: 1.55;
+  color: #7a7266;
+}
+
+.plans {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 4vw;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 26px 24px 28px;
+  background: var(--paper);
+}
+
+.plan.is-featured {
+  background: #fbf6ee;
+  box-shadow: inset 0 4px 0 var(--red);
+}
+
+.plan-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.plan-audience {
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #7a7266;
+}
+
+.plan-price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.plan-price strong {
+  font-size: clamp(1.8rem, 2.6vw, 2.4rem);
+  letter-spacing: -0.05em;
+}
+
+.plan-price span {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #7a7266;
+}
+
+.plan ul {
+  display: grid;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.plan li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.plan li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--red);
+}
+
+.plan .buy {
+  justify-content: center;
+  margin-top: auto;
+  text-align: center;
+}
+
+.payg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 4vw;
+  padding: 26px;
+  border: 1px solid #c9c0b2;
+  background: #fbf6ee;
+}
+
+.payg h2 {
+  margin: 0.5rem 0 0.6rem;
+  font-size: clamp(1.5rem, 2.4vw, 2.2rem);
+  letter-spacing: -0.05em;
+}
+
+.payg p {
+  max-width: 64ch;
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.55;
+  color: #4d463c;
+}
+
+.faq {
+  max-width: 78ch;
+  margin-top: 5vw;
+}
+
+.faq details {
+  padding: 16px 0;
+  border-bottom: 1px solid #c9c0b2;
+}
+
+.faq summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq summary::after {
+  content: "+";
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--red);
+}
+
+.faq details[open] summary::after {
+  content: "−";
+}
+
+.faq p {
+  max-width: 68ch;
+  margin: 10px 0 0;
+  font-size: 0.76rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #4d463c;
+}
+
+.pricing-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 24px 4vw;
+  border-top: 1px solid #c9c0b2;
+  font-size: 0.66rem;
+  font-weight: 600;
+  color: #7a7266;
+}
+
+.pricing-footer p {
+  margin: 0;
+}
+
+.pricing-footer div {
+  display: flex;
+  gap: 18px;
+}
+
+.pricing-footer a {
+  color: var(--ink);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.pricing-footer a:hover {
+  color: var(--red);
+}
+
+@media (max-width: 900px) {
+  .pricing {
+    padding: 0 5vw 12vw;
+  }
+
+  .pricing-head {
+    padding: 14vw 0 8vw;
+  }
+
+  .plans {
+    grid-template-columns: 1fr;
+    margin-top: 8vw;
+  }
+
+  .payg {
+    margin-top: 8vw;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .faq {
+    margin-top: 10vw;
+  }
+}
+
+@media (max-width: 620px) {
+  .pricing-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

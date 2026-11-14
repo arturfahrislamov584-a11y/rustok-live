@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml" />
+    <meta name="description" content="РуСток для компаний: лицензии, подписка Enterprise, договор, счёт и закрывающие документы." />
+    <title>Для компаний — РуСток</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="theme.css?v=2" />
+    <link rel="stylesheet" href="ui.css?v=2" />
+    <link rel="stylesheet" href="cabinet.css?v=2" />
+    <link rel="stylesheet" href="business.css?v=1" />
+  </head>
+  <body>
+    <header class="bar">
+      <a class="brand" href="index.html">РуСток</a>
+      <nav>
+        <a href="catalog.html?type=photo">Каталог</a>
+        <a href="pricing.html">Тарифы</a>
+        <a class="active" href="business.html">Юрлицам</a>
+      </nav>
+    </header>
+
+    <main class="cabinet business">
+      <section class="cabinet-hero">
+        <div class="cabinet-hero-copy">
+          <span class="eyebrow">ДЛЯ КОМПАНИЙ</span>
+          <h1>Контент <em>по счёту.</em></h1>
+          <p>Лицензии, подписка и закрывающие документы для команд и юрлиц. Работаем по договору и безналу — бухгалтерия получает полный пакет.</p>
+          <div class="business-hero-actions">
+            <button class="buy" id="request-scroll" type="button">Запросить договор <span>→</span></button>
+            <a class="ghost" href="pricing.html">Сравнить тарифы</a>
+          </div>
+        </div>
+        <div class="cabinet-badge">
+          <span class="eyebrow">ENTERPRISE</span>
+          <strong>от 4 500 ₽/мес</strong>
+          <small>без лимита скачиваний</small>
+        </div>
+      </section>
+
+      <section class="business-grid">
+        <article class="business-card">
+          <span>01</span>
+          <h2>Закрывающие документы</h2>
+          <p>Договор, счёт, акт и УПД. Пакет приходит на почту после оплаты, без ручных запросов.</p>
+        </article>
+        <article class="business-card">
+          <span>02</span>
+          <h2>Один счёт на команду</h2>
+          <p>Enterprise без лимита скачиваний, общий доступ и персональный менеджер.</p>
+        </article>
+        <article class="business-card">
+          <span>03</span>
+          <h2>Права подтверждены</h2>
+          <p>Релизы моделей и имущественные права проверены. Лицензия действует по всему миру.</p>
+        </article>
+      </section>
+
+      <section class="business-section">
+        <div class="section-head">
+          <span class="eyebrow">БУХГАЛТЕРИЯ</span>
+          <h2>Документы <em>без сюрпризов.</em></h2>
+          <p>Сформируем пакет под вашу форму оплаты: безнал, счёт или карта.</p>
+        </div>
+        <div class="account-panel business-docs">
+          <div class="doc-list">
+            <div class="doc-row"><div><strong>Договор-оферта</strong><small>PDF · публичная оферта</small></div><button class="doc-download" data-doc="Договор-оферта" type="button">Скачать</button></div>
+            <div class="doc-row"><div><strong>Счёт на оплату</strong><small>PDF · с НДС</small></div><button class="doc-download" data-doc="Счёт на оплату" type="button">Скачать</button></div>
+            <div class="doc-row"><div><strong>Акт и УПД</strong><small>PDF · по закрытым периодам</small></div><button class="doc-download" data-doc="Акт и УПД" type="button">Скачать</button></div>
+            <div class="doc-row"><div><strong>Лицензионное соглашение</strong><small>PDF · условия использования</small></div><button class="doc-download" data-doc="Лицензионное соглашение" type="button">Скачать</button></div>
+          </div>
+          <p class="panel-note">В рабочей версии документы формируются автоматически. В прототипе кнопка показывает демо-уведомление.</p>
+        </div>
+      </section>
+
+      <section class="business-section">
+        <div class="section-head">
+          <span class="eyebrow">КАК НАЧАТЬ</span>
+          <h2>Три шага <em>до доступа.</em></h2>
+        </div>
+        <div class="steps">
+          <article><span>01</span><h3>Заявка</h3><p>Расскажите о задаче и количестве материалов. Ответим в течение рабочего дня.</p></article>
+          <article><span>02</span><h3>Договор и счёт</h3><p>Согласуем тариф, реквизиты и форму оплаты. Выставим счёт.</p></article>
+          <article><span>03</span><h3>Доступ</h3><p>Откроем каталог и пришлём закрывающие документы после оплаты.</p></article>
+        </div>
+      </section>
+
+      <section class="business-section business-form-section" id="contract">
+        <div class="business-form-copy">
+          <span class="eyebrow">ДОГОВОР И СЧЁТ</span>
+          <h2>Запросите <em>договор.</em></h2>
+          <p>Ответим на почту, пришлём карточку компании и реквизиты. Без звонков и навязанных услуг.</p>
+          <button class="ghost-button" id="request-requisites" type="button">Запросить реквизиты</button>
+        </div>
+        <form class="b2b-form" id="b2b-form">
+          <label>Имя<input name="name" required autocomplete="name" placeholder="Как к вам обращаться" /></label>
+          <label>Компания<input name="company" required autocomplete="organization" placeholder="ООО «Пример»" /></label>
+          <label>E-mail<input name="email" type="email" required autocomplete="email" placeholder="name@company.ru" /></label>
+          <label>Телефон<input name="phone" type="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" /></label>
+          <label class="b2b-wide">Задача<textarea name="comment" rows="3" placeholder="Сколько материалов нужно и для каких проектов"></textarea></label>
+          <label class="b2b-check"><input name="agree" type="checkbox" required /> Согласен на обработку данных для ответа на заявку.</label>
+          <button class="buy" type="submit">Отправить заявку <span>→</span></button>
+          <p class="b2b-hint">Прототип: заявка сохраняется в браузере и не отправляется.</p>
+        </form>
+        <div class="b2b-success" id="b2b-success" hidden>
+          <span class="eyebrow">ЗАЯВКА ПРИНЯТА</span>
+          <h2>Свяжемся <em>сегодня.</em></h2>
+          <p>Номер заявки <b id="b2b-number">—</b>. В рабочей версии здесь было бы письмо с договором и счётом.</p>
+          <button class="ghost-button" id="b2b-reset" type="button">Отправить ещё одну</button>
+        </div>
+      </section>
+
+      <section class="business-faq">
+        <h2>Коротко <em>о главном.</em></h2>
+        <details><summary>Можно оплатить по счёту?</summary><p>Да, для юрлиц выставляем счёт на оплату и присылаем закрывающие документы.</p></details>
+        <details><summary>Какие документы получим?</summary><p>Договор, счёт, акт и УПД. Состав пакета зависит от выбранного тарифа и периода.</p></details>
+        <details><summary>Сколько стоит Enterprise?</summary><p>От 4 500 ₽ в месяц. Финальная стоимость зависит от числа сотрудников и объёма скачиваний.</p></details>
+      </section>
+    </main>
+
+    <footer class="cabinet-footer">
+      <span>© 2026 РуСток · демо-прототип</span>
+      <div><a href="index.html">Главная</a><a href="pricing.html">Тарифы</a><a href="catalog.html?type=photo">Каталог</a><a href="account.html">Кабинет</a></div>
+    </footer>
+
+    <script src="ui.js?v=2"></script>
+    <script src="business.js?v=1"></script>
+  </body>
+</html>

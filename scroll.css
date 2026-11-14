@@ -1,0 +1,13 @@
+@media (prefers-reduced-motion: no-preference) {
+  .mosaic, .hero h1, .hero-copy, .search, .orbit-one, .media-tile {
+    will-change: transform, opacity, translate;
+  }
+  .mosaic { transition: transform .12s linear, opacity .12s linear; }
+  .hero h1, .hero-copy, .search, .orbit-one { transition: transform .12s linear; }
+  .media-tile { transition: transform .7s cubic-bezier(.2,.7,.1,1), translate .12s linear, opacity .12s linear; }
+  .hero.is-scrolling .hero-kicker { opacity: .55; transition: opacity .2s linear; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mosaic, .hero h1, .hero-copy, .search, .orbit-one, .media-tile { transition: none !important; }
+}

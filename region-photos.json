@@ -1,0 +1,597 @@
+{
+    "Иркутская область":  {
+                              "code":  "IRK",
+                              "title":  "Иркутская область",
+                              "page":  "https://ru.wikipedia.org/wiki/%D0%98%D1%80%D0%BA%D1%83%D1%82%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                              "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/%D0%91%D1%83%D1%85%D1%82%D0%B0_%D0%9F%D0%B5%D1%81%D1%87%D0%B0%D0%BD%D0%B0%D1%8F%2C_%D0%B2%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%B1%D1%83%D1%85%D1%82%D1%83.jpg/1280px-%D0%91%D1%83%D1%85%D1%82%D0%B0_%D0%9F%D0%B5%D1%81%D1%87%D0%B0%D0%BD%D0%B0%D1%8F%2C_%D0%B2%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%B1%D1%83%D1%85%D1%82%D1%83.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                              "file":  "IRK.jpg"
+                          },
+    "Томская область":  {
+                            "code":  "TOM",
+                            "title":  "Томская область",
+                            "page":  "https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                            "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%BE%D1%89%D0%B0.jpg/1280px-%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%BE%D1%89%D0%B0.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                            "file":  "TOM.jpg"
+                        },
+    "Ханты-Мансийский АО — Югра":  {
+                                       "code":  "KHM",
+                                       "title":  "Ханты-Мансийский АО — Югра",
+                                       "page":  "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D1%8B-%D0%9C%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%90%D0%9E_%E2%80%94_%D0%AE%D0%B3%D1%80%D0%B0",
+                                       "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%D0%A1%D0%B5%D1%80%D0%B4%D1%86%D0%B5_%D0%AE%D0%B3%D1%80%D1%8B.jpg/1280px-%D0%A1%D0%B5%D1%80%D0%B4%D1%86%D0%B5_%D0%AE%D0%B3%D1%80%D1%8B.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                       "file":  "KHM.jpg"
+                                   },
+    "Пермский край":  {
+                          "code":  "PER",
+                          "title":  "Пермский край",
+                          "page":  "https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9",
+                          "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Vishera_River%2C_Perm_Krai.jpg/1280px-Vishera_River%2C_Perm_Krai.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                          "file":  "PER.jpg"
+                      },
+    "Тверская область":  {
+                             "code":  "TVE",
+                             "title":  "Тверская область",
+                             "page":  "https://ru.wikipedia.org/wiki/%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                             "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8C.jpg/1280px-%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8C.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                             "file":  "TVE.jpg"
+                         },
+    "Смоленская область":  {
+                               "code":  "SMO",
+                               "title":  "Смоленск",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%A1%D0%BC%D0%BE%D0%BB%D0%B5%D0%BD%D1%81%D0%BA",
+                               "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Smolensk_downtown.jpg/1280px-Smolensk_downtown.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                               "file":  "SMO.jpg"
+                           },
+    "Воронежская область":  {
+                                "code":  "VOR",
+                                "title":  "Воронежская область",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Don_%28Voronezh_Oblast%29.jpg/1280px-Don_%28Voronezh_Oblast%29.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                "file":  "VOR.jpg"
+                            },
+    "Волгоградская область":  {
+                                  "code":  "VGG",
+                                  "title":  "Волгоградская область",
+                                  "page":  "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D0%B3%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                  "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Volgograd_Oblast_border.JPG/1280px-Volgograd_Oblast_border.JPG?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                  "file":  "VGG.jpg"
+                              },
+    "Саратовская область":  {
+                                "code":  "SAR",
+                                "title":  "Саратовская область",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                "thumb":  "https://upload.wikimedia.org/wikipedia/commons/0/06/-_panoramio_-_Road_Sign_Series_%288%29.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                                "file":  "SAR.jpg"
+                            },
+    "Оренбургская область":  {
+                                 "code":  "ORE",
+                                 "title":  "Оренбургская область",
+                                 "page":  "https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                 "thumb":  "https://upload.wikimedia.org/wikipedia/commons/7/75/Burtunskaya_step.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                                 "file":  "ORE.jpg"
+                             },
+    "Красноярский край":  {
+                              "code":  "KYA",
+                              "title":  "Красноярский край",
+                              "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9",
+                              "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mana_river_1.jpg/1280px-Mana_river_1.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                              "file":  "KYA.jpg"
+                          },
+    "Саха (Якутия)":  {
+                          "code":  "SA",
+                          "title":  "Саха (Якутия)",
+                          "page":  "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%85%D0%B0_(%D0%AF%D0%BA%D1%83%D1%82%D0%B8%D1%8F)",
+                          "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Yakutsk_-_190228_DSC_5379.jpg/1280px-Yakutsk_-_190228_DSC_5379.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                          "file":  "SA.jpg"
+                      },
+    "Магаданская область":  {
+                                "code":  "MAG",
+                                "title":  "Магаданская область",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/%D0%93%D0%BE%D1%80%D0%BD%D0%BE%D0%BB%D1%8B%D0%B6%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_2.JPG/1280px-%D0%93%D0%BE%D1%80%D0%BD%D0%BE%D0%BB%D1%8B%D0%B6%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_2.JPG?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                "file":  "MAG.jpg"
+                            },
+    "Камчатский край":  {
+                            "code":  "KAM",
+                            "title":  "Камчатский край",
+                            "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BC%D1%87%D0%B0%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9",
+                            "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/%D0%9A%D0%BE%D1%80%D1%8F%D0%BA%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%90%D0%B2%D0%B0%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%9A%D0%BE%D0%B7%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9.jpg/1280px-%D0%9A%D0%BE%D1%80%D1%8F%D0%BA%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%90%D0%B2%D0%B0%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%9A%D0%BE%D0%B7%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                            "file":  "KAM.jpg"
+                        },
+    "Приморский край":  {
+                            "code":  "PRI",
+                            "title":  "Приморский край",
+                            "page":  "https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9",
+                            "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%D0%91%D1%83%D1%85%D1%82%D0%B0_%D0%94%D1%83%D0%B1%D0%BE%D0%B2%D0%B0%D1%8F.jpg/1280px-%D0%91%D1%83%D1%85%D1%82%D0%B0_%D0%94%D1%83%D0%B1%D0%BE%D0%B2%D0%B0%D1%8F.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                            "file":  "PRI.jpg"
+                        },
+    "Забайкальский край":  {
+                               "code":  "ZAB",
+                               "title":  "Чита",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%82%D0%B0",
+                               "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Buildings_in_Chita_%28June_2026%29_-_0_12.jpg/1280px-Buildings_in_Chita_%28June_2026%29_-_0_12.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                               "file":  "ZAB.jpg"
+                           },
+    "Белгородская область":  {
+                                 "code":  "BEL",
+                                 "title":  "Белгородская область",
+                                 "page":  "https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                 "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%D0%A0%D0%B5%D0%BA%D0%B0_%D0%9F%D1%81%D1%91%D0%BB_%D1%83_%D1%81%D0%B5%D0%BB%D0%B0_%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B8%D0%BD%D0%BE_03.JPG/1280px-%D0%A0%D0%B5%D0%BA%D0%B0_%D0%9F%D1%81%D1%91%D0%BB_%D1%83_%D1%81%D0%B5%D0%BB%D0%B0_%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B8%D0%BD%D0%BE_03.JPG?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                 "file":  "BEL.jpg"
+                             },
+    "Калужская область":  {
+                              "code":  "KLU",
+                              "title":  "Калужская область",
+                              "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                              "thumb":  "https://upload.wikimedia.org/wikipedia/commons/6/65/Kaluga_Oblast_collage.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                              "file":  "KLU.jpg"
+                          },
+    "Московская область":  {
+                               "code":  "MOS",
+                               "title":  "Московская область",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                               "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Moscow_Urban_Agglomeration%2C_Russia%2C_LandSat-7_image.jpg/1280px-Moscow_Urban_Agglomeration%2C_Russia%2C_LandSat-7_image.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                               "file":  "MOS.jpg"
+                           },
+    "Владимирская область":  {
+                                 "code":  "VLA",
+                                 "title":  "Владимир",
+                                 "page":  "https://ru.wikipedia.org/wiki/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80",
+                                 "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%2C_%D0%B2%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80.JPG/1280px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%2C_%D0%B2%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80.JPG?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                 "file":  "VLA.jpg"
+                             },
+    "Нижегородская область":  {
+                                  "code":  "NIZ",
+                                  "title":  "Нижегородская область",
+                                  "page":  "https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B6%D0%B5%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                  "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9_1_%D0%BE%D0%B1%D1%80%D0%B5%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9.jpg/1280px-%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9_1_%D0%BE%D0%B1%D1%80%D0%B5%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                  "file":  "NIZ.jpg"
+                              },
+    "Чувашия":  {
+                    "code":  "CU",
+                    "title":  "Чувашия",
+                    "page":  "https://ru.wikipedia.org/wiki/%D0%A7%D1%83%D0%B2%D0%B0%D1%88%D0%B8%D1%8F",
+                    "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/20220626_Cheboksary_113.jpg/1280px-20220626_Cheboksary_113.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                    "file":  "CU.jpg"
+                },
+    "Марий Эл":  {
+                     "code":  "ME",
+                     "title":  "Марий Эл",
+                     "page":  "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D0%B8%D0%B9_%D0%AD%D0%BB",
+                     "thumb":  "https://upload.wikimedia.org/wikipedia/commons/3/35/%D0%92%D0%B5%D1%87%D0%B5%D1%80_%D0%BD%D0%B0_%D0%BE%D0%B7%D0%B5%D1%80%D0%B5._%D0%97%D0%B0%D0%BA%D0%B0%D1%82.JPG?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                     "file":  "ME.jpg"
+                 },
+    "Татарстан":  {
+                      "code":  "TA",
+                      "title":  "Татарстан",
+                      "page":  "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD",
+                      "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Night_aerial_view_of_Kazan%2C_Russia_%282007%29.jpg/1280px-Night_aerial_view_of_Kazan%2C_Russia_%282007%29.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                      "file":  "TA.jpg"
+                  },
+    "Самарская область":  {
+                              "code":  "SAM",
+                              "title":  "Самарская область",
+                              "page":  "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                              "thumb":  "https://upload.wikimedia.org/wikipedia/commons/b/b1/Samara_-_View_from_Volga_%282008-07-13%29.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                              "file":  "SAM.jpg"
+                          },
+    "Ростовская область":  {
+                               "code":  "ROS",
+                               "title":  "Ростовская область",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                               "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Khutor_Starozolotovskii_P7092230_2575.jpg/1280px-Khutor_Starozolotovskii_P7092230_2575.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                               "file":  "ROS.jpg"
+                           },
+    "Краснодарский край":  {
+                               "code":  "KDA",
+                               "title":  "Краснодарский край",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9",
+                               "thumb":  "https://upload.wikimedia.org/wikipedia/commons/0/0e/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%B8_%D1%84%D0%BA_%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80_%D0%B8_%D0%BF%D0%B0%D1%80%D0%BA_%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%D0%B2_by_Lunacia.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                               "file":  "KDA.jpg"
+                           },
+    "Карачаево-Черкесия":  {
+                               "code":  "KC",
+                               "title":  "Карачаево-Черкесия",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D1%87%D0%B0%D0%B5%D0%B2%D0%BE-%D0%A7%D0%B5%D1%80%D0%BA%D0%B5%D1%81%D0%B8%D1%8F",
+                               "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Arkhyz%2C_Karachay-Cherkessia%2C_Taulu%2C_Trees_2.jpg/1280px-Arkhyz%2C_Karachay-Cherkessia%2C_Taulu%2C_Trees_2.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                               "file":  "KC.jpg"
+                           },
+    "Кабардино-Балкария":  {
+                               "code":  "KB",
+                               "title":  "Кабардино-Балкария",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B1%D0%B0%D1%80%D0%B4%D0%B8%D0%BD%D0%BE-%D0%91%D0%B0%D0%BB%D0%BA%D0%B0%D1%80%D0%B8%D1%8F",
+                               "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/%D0%A2%D1%8B%D0%B7%D1%8B%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B5%D1%81%D0%BD%D0%B8%D0%BD%D0%B0.jpg/1280px-%D0%A2%D1%8B%D0%B7%D1%8B%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B5%D1%81%D0%BD%D0%B8%D0%BD%D0%B0.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                               "file":  "KB.jpg"
+                           },
+    "Ставропольский край":  {
+                                "code":  "STA",
+                                "title":  "Ставропольский край",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9",
+                                "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%B3%D0%BE%D1%80%D1%83_%D0%92%D0%B5%D1%80%D0%B1%D0%BB%D1%8E%D0%B4.jpg/1280px-%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%B3%D0%BE%D1%80%D1%83_%D0%92%D0%B5%D1%80%D0%B1%D0%BB%D1%8E%D0%B4.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                "file":  "STA.jpg"
+                            },
+    "Дагестан":  {
+                     "code":  "DA",
+                     "title":  "Дагестан",
+                     "page":  "https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D0%B3%D0%B5%D1%81%D1%82%D0%B0%D0%BD",
+                     "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Sulak_Canyon_in_Dagestan.jpg/1280px-Sulak_Canyon_in_Dagestan.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                     "file":  "DA.jpg"
+                 },
+    "Алтайский край":  {
+                           "code":  "ALT",
+                           "title":  "Алтайский край",
+                           "page":  "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9",
+                           "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/The_Resort_Of_Belokurikha._Early_autumn_in_the_vicinity_of_the_resort_area.jpg/1280px-The_Resort_Of_Belokurikha._Early_autumn_in_the_vicinity_of_the_resort_area.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                           "file":  "ALT.jpg"
+                       },
+    "Новосибирская область":  {
+                                  "code":  "NVS",
+                                  "title":  "Новосибирская область",
+                                  "page":  "https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                  "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Novosibirsk_skyline_in_winter.jpg/1280px-Novosibirsk_skyline_in_winter.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                  "file":  "NVS.jpg"
+                              },
+    "Кемеровская область":  {
+                                "code":  "KEM",
+                                "title":  "Кемеровская область",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Kuznetsk_Alatau_1.jpg/1280px-Kuznetsk_Alatau_1.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                "file":  "KEM.jpg"
+                            },
+    "Хакасия":  {
+                    "code":  "KK",
+                    "title":  "Абакан",
+                    "page":  "https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%BA%D0%B0%D0%BD",
+                    "thumb":  "https://upload.wikimedia.org/wikipedia/commons/3/38/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%9C._%D0%AE._%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D0%B0.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                    "file":  "KK.jpg"
+                },
+    "Бурятия":  {
+                    "code":  "BU",
+                    "title":  "Бурятия",
+                    "page":  "https://ru.wikipedia.org/wiki/%D0%91%D1%83%D1%80%D1%8F%D1%82%D0%B8%D1%8F",
+                    "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%BD%D0%B0_%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%BB%D0%B5.jpg/1280px-%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%BD%D0%B0_%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%BB%D0%B5.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                    "file":  "BU.jpg"
+                },
+    "Амурская область":  {
+                             "code":  "AMU",
+                             "title":  "Амурская область",
+                             "page":  "https://ru.wikipedia.org/wiki/%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                             "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Aihui%2C_Heihe%2C_Heilongjiang%2C_China_-_panoramio_%283%29.jpg/1280px-Aihui%2C_Heihe%2C_Heilongjiang%2C_China_-_panoramio_%283%29.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                             "file":  "AMU.jpg"
+                         },
+    "Сахалинская область":  {
+                                "code":  "SAK",
+                                "title":  "Сахалинская область",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%85%D0%B0%D0%BB%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Yuzhno-Sakhalinsk%2C_Sakhalin_Oblast%2C_Russia_-_panoramio_%281%29.jpg/1280px-Yuzhno-Sakhalinsk%2C_Sakhalin_Oblast%2C_Russia_-_panoramio_%281%29.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                "file":  "SAK.jpg"
+                            },
+    "Тыва":  {
+                 "code":  "TY",
+                 "title":  "Тыва",
+                 "page":  "https://ru.wikipedia.org/wiki/%D0%A2%D1%8B%D0%B2%D0%B0",
+                 "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D0%90%D0%B7%D0%B8%D0%B8_%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82_2015%D0%B3.jpg/1280px-%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D0%90%D0%B7%D0%B8%D0%B8_%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82_2015%D0%B3.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                 "file":  "TY.jpg"
+             },
+    "Еврейская АО":  {
+                         "code":  "YEV",
+                         "title":  "Еврейская АО",
+                         "page":  "https://ru.wikipedia.org/wiki/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%90%D0%9E",
+                         "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/On_the_Bira_embankment%2C_Birobidzhan.jpg/1280px-On_the_Bira_embankment%2C_Birobidzhan.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                         "file":  "YEV.jpg"
+                     },
+    "Чукотский АО":  {
+                         "code":  "CHU",
+                         "title":  "Чукотский АО",
+                         "page":  "https://ru.wikipedia.org/wiki/%D0%A7%D1%83%D0%BA%D0%BE%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%90%D0%9E",
+                         "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9_%D1%85%D1%80%D0%B5%D0%B1%D0%B5%D1%82%2C_%D0%AE%D0%B6%D0%BD%D0%B0%D1%8F_%D0%A7%D1%83%D0%BA%D0%BE%D1%82%D0%BA%D0%B0.jpg/1280px-%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9_%D1%85%D1%80%D0%B5%D0%B1%D0%B5%D1%82%2C_%D0%AE%D0%B6%D0%BD%D0%B0%D1%8F_%D0%A7%D1%83%D0%BA%D0%BE%D1%82%D0%BA%D0%B0.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                         "file":  "CHU.jpg"
+                     },
+    "Ямало-Ненецкий АО":  {
+                              "code":  "YAN",
+                              "title":  "Ямало-Ненецкий АО",
+                              "page":  "https://ru.wikipedia.org/wiki/%D0%AF%D0%BC%D0%B0%D0%BB%D0%BE-%D0%9D%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9_%D0%90%D0%9E",
+                              "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%D0%9E%D0%B1%D0%B4%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B3.jpg/1280px-%D0%9E%D0%B1%D0%B4%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B3.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                              "file":  "YAN.jpg"
+                          },
+    "Архангельская область":  {
+                                  "code":  "ARK",
+                                  "title":  "Архангельская область",
+                                  "page":  "https://ru.wikipedia.org/wiki/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                  "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Solovetsky_Monastery_drone_1.jpg/1280px-Solovetsky_Monastery_drone_1.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                  "file":  "ARK.jpg"
+                              },
+    "Псковская область":  {
+                              "code":  "PSK",
+                              "title":  "Псковская область",
+                              "page":  "https://ru.wikipedia.org/wiki/%D0%9F%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                              "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Pskov_asv07-2018_Kremlin_view_from_east_img2.jpg/1280px-Pskov_asv07-2018_Kremlin_view_from_east_img2.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                              "file":  "PSK.jpg"
+                          },
+    "Костромская область":  {
+                                "code":  "KOS",
+                                "title":  "Костромская область",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/%D0%A0%D0%B5%D0%BA%D0%B0_%D0%92%D0%BE%D0%BB%D0%B3%D0%B0._%D0%9A%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C.jpg/1280px-%D0%A0%D0%B5%D0%BA%D0%B0_%D0%92%D0%BE%D0%BB%D0%B3%D0%B0._%D0%9A%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                "file":  "KOS.jpg"
+                            },
+    "Вологодская область":  {
+                                "code":  "VLG",
+                                "title":  "Вологодская область",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D0%BE%D0%B3%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/%D0%92%D0%B5%D1%87%D0%B5%D1%80_%D1%83_%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%D0%BE-%D0%91%D0%B5%D0%BB%D0%BE%D0%B7%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8F.jpg/1280px-%D0%92%D0%B5%D1%87%D0%B5%D1%80_%D1%83_%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%D0%BE-%D0%91%D0%B5%D0%BB%D0%BE%D0%B7%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8F.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                "file":  "VLG.jpg"
+                            },
+    "Ленинградская область":  {
+                                  "code":  "LEN",
+                                  "title":  "Ленинградская область",
+                                  "page":  "https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                  "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Gatchina_Palace%2C_Southern_facade.jpg/1280px-Gatchina_Palace%2C_Southern_facade.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                  "file":  "LEN.jpg"
+                              },
+    "Мурманская область":  {
+                               "code":  "MUR",
+                               "title":  "Мурманская область",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%9C%D1%83%D1%80%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                               "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/%D0%9B%D0%B0%D0%BF%D0%BB%D0%B0%D0%BD%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA..jpg/1280px-%D0%9B%D0%B0%D0%BF%D0%BB%D0%B0%D0%BD%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA..jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                               "file":  "MUR.jpg"
+                           },
+    "Тамбовская область":  {
+                               "code":  "TAM",
+                               "title":  "Тамбовская область",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BC%D0%B1%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                               "thumb":  "https://upload.wikimedia.org/wikipedia/commons/6/65/%D0%9F%D0%B5%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%82%D0%BA%D0%B0.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                               "file":  "TAM.jpg"
+                           },
+    "Пензенская область":  {
+                               "code":  "PNZ",
+                               "title":  "Пензенская область",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D0%BD%D0%B7%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                               "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Troice-scanov_monastery_DSC08705.jpg/1280px-Troice-scanov_monastery_DSC08705.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                               "file":  "PNZ.jpg"
+                           },
+    "Кировская область":  {
+                              "code":  "KIR",
+                              "title":  "Кировская область",
+                              "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                              "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Moloma.jpg/1280px-Moloma.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                              "file":  "KIR.jpg"
+                          },
+    "Севастополь":  {
+                        "code":  "SEV",
+                        "title":  "Севастополь",
+                        "page":  "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C",
+                        "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/1356_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B7%D0%B0%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%8F%D0%BC.jpg/1280px-1356_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B7%D0%B0%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%8F%D0%BC.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                        "file":  "SEV.jpg"
+                    },
+    "Крым":  {
+                 "code":  "CR",
+                 "title":  "Крым",
+                 "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%8B%D0%BC",
+                 "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Satellite_picture_of_Crimea%2C_Terra-MODIS%2C_05-16-2015.jpg/1280px-Satellite_picture_of_Crimea%2C_Terra-MODIS%2C_05-16-2015.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                 "file":  "CR.jpg"
+             },
+    "Адыгея":  {
+                   "code":  "AD",
+                   "title":  "Адыгея",
+                   "page":  "https://ru.wikipedia.org/wiki/%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D1%8F",
+                   "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Acheshbok%2C_%D0%AE%D0%B6%D0%BD%D1%8B%D0%B5_%D0%BE%D1%82%D1%80%D0%BE%D0%B3%D0%B8_%D0%B3%D0%BE%D1%80%D1%8B_%D0%90%D1%87%D0%B5%D1%88%D0%B1%D0%BE%D0%BA%2C_%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5_%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F_%D1%80%D0%B0%D0%BD%D0%BD%D0%B5%D0%B3%D0%BE_%D0%BB%D0%B5%D1%82%D0%B0%2C_%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%9A%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7.jpg/1280px-thumbnail.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                   "file":  "AD.jpg"
+               },
+    "Башкортостан":  {
+                         "code":  "BA",
+                         "title":  "Башкортостан",
+                         "page":  "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%88%D0%BA%D0%BE%D1%80%D1%82%D0%BE%D1%81%D1%82%D0%B0%D0%BD",
+                         "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Salavat_Yulaev_Panorama.jpg/1280px-Salavat_Yulaev_Panorama.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                         "file":  "BA.jpg"
+                     },
+    "Алтай":  {
+                  "code":  "AL",
+                  "title":  "Алтай",
+                  "page":  "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%82%D0%B0%D0%B9",
+                  "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%D0%92_%D0%B3%D0%BE%D1%80%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5.jpg/1280px-%D0%92_%D0%B3%D0%BE%D1%80%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                  "file":  "AL.jpg"
+              },
+    "Ингушетия":  {
+                      "code":  "IN",
+                      "title":  "Ингушетия",
+                      "page":  "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B3%D1%83%D1%88%D0%B5%D1%82%D0%B8%D1%8F",
+                      "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Magas.jpg/1280px-Magas.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                      "file":  "IN.jpg"
+                  },
+    "Калмыкия":  {
+                     "code":  "KL",
+                     "title":  "Калмыкия",
+                     "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%BC%D1%8B%D0%BA%D0%B8%D1%8F",
+                     "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Elista_P5111385_2200.jpg/1280px-Elista_P5111385_2200.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                     "file":  "KL.jpg"
+                 },
+    "Карелия":  {
+                    "code":  "KR",
+                    "title":  "Карелия",
+                    "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B5%D0%BB%D0%B8%D1%8F",
+                    "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Summer%2C_August%2C_morning%2C_skerries.jpg/1280px-Summer%2C_August%2C_morning%2C_skerries.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                    "file":  "KR.jpg"
+                },
+    "Мордовия":  {
+                     "code":  "MO",
+                     "title":  "Мордовия",
+                     "page":  "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D0%B4%D0%BE%D0%B2%D0%B8%D1%8F",
+                     "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Saransk.jpg/1280px-Saransk.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                     "file":  "MO.jpg"
+                 },
+    "Северная Осетия — Алания":  {
+                                     "code":  "SE",
+                                     "title":  "Северная Осетия — Алания",
+                                     "page":  "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%9E%D1%81%D0%B5%D1%82%D0%B8%D1%8F_%E2%80%94_%D0%90%D0%BB%D0%B0%D0%BD%D0%B8%D1%8F",
+                                     "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D0%B4_%D0%A6%D0%B8%D0%BC%D0%B8%D1%82%D0%B8_03.jpg/1280px-%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D0%B4_%D0%A6%D0%B8%D0%BC%D0%B8%D1%82%D0%B8_03.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                     "file":  "SE.jpg"
+                                 },
+    "Удмуртия":  {
+                     "code":  "UD",
+                     "title":  "Удмуртия",
+                     "page":  "https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%BC%D1%83%D1%80%D1%82%D0%B8%D1%8F",
+                     "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%D0%93%D0%B0%D0%BB%D1%91%D0%B2%D0%BE._%D0%9A%D0%B0%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%80.jpg/1280px-%D0%93%D0%B0%D0%BB%D1%91%D0%B2%D0%BE._%D0%9A%D0%B0%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%80.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                     "file":  "UD.jpg"
+                 },
+    "Чечня":  {
+                  "code":  "CE",
+                  "title":  "Чечня",
+                  "page":  "https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D1%87%D0%BD%D1%8F",
+                  "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%22%D0%A1%D0%B5%D1%80%D0%B4%D1%86%D0%B5_%D0%A7%D0%B5%D1%87%D0%BD%D0%B8%22.jpg/1280px-%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%22%D0%A1%D0%B5%D1%80%D0%B4%D1%86%D0%B5_%D0%A7%D0%B5%D1%87%D0%BD%D0%B8%22.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                  "file":  "CE.jpg"
+              },
+    "Хабаровский край":  {
+                             "code":  "KHA",
+                             "title":  "Хабаровский край",
+                             "page":  "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9",
+                             "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/%D0%9C%D1%83%D1%80%D0%B0%D0%B2%D1%8C%D0%B5%D0%B2%D0%B0-%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C_17_-_%D0%B2%D0%B8%D0%B4_%D0%BD%D0%B0_%D1%84%D0%B0%D1%81%D0%B0%D0%B4.jpg/1280px-%D0%9C%D1%83%D1%80%D0%B0%D0%B2%D1%8C%D0%B5%D0%B2%D0%B0-%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C_17_-_%D0%B2%D0%B8%D0%B4_%D0%BD%D0%B0_%D1%84%D0%B0%D1%81%D0%B0%D0%B4.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                             "file":  "KHA.jpg"
+                         },
+    "Астраханская область":  {
+                                 "code":  "AST",
+                                 "title":  "Астрахань",
+                                 "page":  "https://ru.wikipedia.org/wiki/%D0%90%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%B0%D0%BD%D1%8C",
+                                 "thumb":  "https://upload.wikimedia.org/wikipedia/commons/4/4c/%D0%90%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8C.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                                 "file":  "AST.jpg"
+                             },
+    "Брянская область":  {
+                             "code":  "BRY",
+                             "title":  "Брянская область",
+                             "page":  "https://ru.wikipedia.org/wiki/%D0%91%D1%80%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                             "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%D0%91%D1%80%D1%8F%D0%BD%D1%81%D0%BA._%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%86._%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%BF%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BD..JPG/1280px-%D0%91%D1%80%D1%8F%D0%BD%D1%81%D0%BA._%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%86._%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%BF%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BD..JPG?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                             "file":  "BRY.jpg"
+                         },
+    "Ивановская область":  {
+                               "code":  "IVA",
+                               "title":  "Ивановская область",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                               "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/View_of_Plyos_from_Cathedral_Mountain_P5251847_2350.jpg/1280px-View_of_Plyos_from_Cathedral_Mountain_P5251847_2350.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                               "file":  "IVA.jpg"
+                           },
+    "Калининградская область":  {
+                                    "code":  "KGD",
+                                    "title":  "Калининградская область",
+                                    "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                    "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Svetlogorsk_beach_2015-08_1439817260.jpg/1280px-Svetlogorsk_beach_2015-08_1439817260.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                    "file":  "KGD.jpg"
+                                },
+    "Курганская область":  {
+                               "code":  "KGN",
+                               "title":  "Курганская область",
+                               "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D1%80%D0%B3%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                               "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/%D0%A2%D1%83%D0%BC%D0%B0%D0%BD_%D0%BF%D0%BE%D1%81%D0%BB%D0%B5_%D0%B3%D1%80%D0%BE%D0%B7%D1%8B_%D0%B2_%D0%A9%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B9_%D0%A1%D0%BE%D0%B3%D1%80%D0%B5.JPG/1280px-%D0%A2%D1%83%D0%BC%D0%B0%D0%BD_%D0%BF%D0%BE%D1%81%D0%BB%D0%B5_%D0%B3%D1%80%D0%BE%D0%B7%D1%8B_%D0%B2_%D0%A9%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B9_%D0%A1%D0%BE%D0%B3%D1%80%D0%B5.JPG?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                               "file":  "KGN.jpg"
+                           },
+    "Курская область":  {
+                            "code":  "KRS",
+                            "title":  "Курская область",
+                            "page":  "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                            "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Rylsk_P5080392_2200.jpg/1280px-Rylsk_P5080392_2200.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                            "file":  "KRS.jpg"
+                        },
+    "Липецкая область":  {
+                             "code":  "LIP",
+                             "title":  "Липецкая область",
+                             "page":  "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BF%D0%B5%D1%86%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                             "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/%D0%92%D0%BE%D0%B7%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%BD%D0%B0_%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D1%83_%D1%80%D0%B5%D0%BA%D0%B8_%D0%A1%D0%BE%D1%81%D0%BD%D0%B0.jpg/1280px-%D0%92%D0%BE%D0%B7%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%BD%D0%B0_%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D1%83_%D1%80%D0%B5%D0%BA%D0%B8_%D0%A1%D0%BE%D1%81%D0%BD%D0%B0.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                             "file":  "LIP.jpg"
+                         },
+    "Новгородская область":  {
+                                 "code":  "NGR",
+                                 "title":  "Новгородская область",
+                                 "page":  "https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                 "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%D0%98%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%9C%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8C_%D1%81_%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%B0.jpg/1280px-%D0%98%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%9C%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8C_%D1%81_%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%B0.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                 "file":  "NGR.jpg"
+                             },
+    "Омская область":  {
+                           "code":  "OMS",
+                           "title":  "Омская область",
+                           "page":  "https://ru.wikipedia.org/wiki/%D0%9E%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                           "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%9E%D1%81%D0%B5%D0%BD%D1%8C_%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%B5.JPG/1280px-%D0%9E%D1%81%D0%B5%D0%BD%D1%8C_%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%B5.JPG?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                           "file":  "OMS.jpg"
+                       },
+    "Орловская область":  {
+                              "code":  "ORL",
+                              "title":  "Орловская область",
+                              "page":  "https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                              "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C.jpg/1280px-%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                              "file":  "ORL.jpg"
+                          },
+    "Рязанская область":  {
+                              "code":  "RYA",
+                              "title":  "Рязанская область",
+                              "page":  "https://ru.wikipedia.org/wiki/%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                              "thumb":  "https://upload.wikimedia.org/wikipedia/commons/7/7f/Ryazan_Oblast_collage.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                              "file":  "RYA.jpg"
+                          },
+    "Свердловская область":  {
+                                 "code":  "SVE",
+                                 "title":  "Свердловская область",
+                                 "page":  "https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B5%D1%80%D0%B4%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                 "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/E-burg_asv2019-05_img46_view_from_VysotSky.jpg/1280px-E-burg_asv2019-05_img46_view_from_VysotSky.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                 "file":  "SVE.jpg"
+                             },
+    "Тульская область":  {
+                             "code":  "TUL",
+                             "title":  "Тульская область",
+                             "page":  "https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                             "thumb":  "https://upload.wikimedia.org/wikipedia/commons/4/4f/Tula_Oblast_collage.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                             "file":  "TUL.jpg"
+                         },
+    "Тюменская область":  {
+                              "code":  "TYU",
+                              "title":  "Тюменская область",
+                              "page":  "https://ru.wikipedia.org/wiki/%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                              "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/View_from_the_Mountain_of_Love_-_panoramio.jpg/1280px-View_from_the_Mountain_of_Love_-_panoramio.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                              "file":  "TYU.jpg"
+                          },
+    "Ульяновская область":  {
+                                "code":  "ULY",
+                                "title":  "Ульяновская область",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                "thumb":  "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ulyanovsk_oblast.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                                "file":  "ULY.jpg"
+                            },
+    "Челябинская область":  {
+                                "code":  "CHE",
+                                "title":  "Челябинская область",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/%D0%A5%D1%80%D0%B5%D0%B1%D0%B5%D1%82_%D0%97%D1%8E%D1%80%D0%B0%D1%82%D0%BA%D1%83%D0%BB%D1%8C.jpg/1280px-%D0%A5%D1%80%D0%B5%D0%B1%D0%B5%D1%82_%D0%97%D1%8E%D1%80%D0%B0%D1%82%D0%BA%D1%83%D0%BB%D1%8C.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                "file":  "CHE.jpg"
+                            },
+    "Ярославская область":  {
+                                "code":  "YAR",
+                                "title":  "Ярославская область",
+                                "page":  "https://ru.wikipedia.org/wiki/%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+                                "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/BorisoglebskyMon_StSergiusChurch_R09.jpg/1280px-BorisoglebskyMon_StSergiusChurch_R09.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                                "file":  "YAR.jpg"
+                            },
+    "Ненецкий АО":  {
+                        "code":  "NEN",
+                        "title":  "Ненецкий АО",
+                        "page":  "https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9_%D0%90%D0%9E",
+                        "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Naryan-Mar_reindeer.jpg/1280px-Naryan-Mar_reindeer.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                        "file":  "NEN.jpg"
+                    },
+    "Санкт-Петербург":  {
+                            "code":  "SPE",
+                            "title":  "Санкт-Петербург",
+                            "page":  "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3",
+                            "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Palace_Bridge_SPB_%28img2%29_Crop.jpg/1280px-Palace_Bridge_SPB_%28img2%29_Crop.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                            "file":  "SPE.jpg"
+                        },
+    "Москва":  {
+                   "code":  "MOW",
+                   "title":  "Москва",
+                   "page":  "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0",
+                   "thumb":  "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Moscow_July_2011-16.jpg/1280px-Moscow_July_2011-16.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail",
+                   "file":  "MOW.jpg"
+               },
+    "Коми":  {
+                 "code":  "KO",
+                 "title":  "Республика Коми",
+                 "page":  "https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0_%D0%9A%D0%BE%D0%BC%D0%B8",
+                 "thumb":  "https://upload.wikimedia.org/wikipedia/commons/d/d8/%D0%9C%D0%B0%D0%BD%D0%B0%D1%80%D0%B0%D0%B3%D0%B0_%D0%B8_%D0%BE%D0%B7%D0%B5%D1%80%D0%BE.jpg?utm_source=ru.wikipedia.org\u0026utm_campaign=index\u0026utm_content=thumbnail_unscaled",
+                 "file":  "KO.jpg"
+             }
+}

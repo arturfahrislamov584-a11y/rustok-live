@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>РуСток — лаборатория движения</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="motion-lab.css" />
+  </head>
+  <body>
+    <header class="lab-header"><a href="index.html">РуСток</a><span>Лаборатория движения / 01</span><a href="index.html">← к главной</a></header>
+    <main>
+      <section class="intro"><p>Не просто анимация.<br /><em>Первое впечатление.</em></p><small>Выбери сцену и подвигай курсором. Все варианты — светлые, живые и построены вокруг настоящего контента.</small></section>
+      <nav class="scene-switch" aria-label="Варианты анимации">
+        <button class="is-active" data-scene="kinetic"><b>01</b> Монтаж</button>
+        <button data-scene="trail"><b>02</b> След</button>
+        <button data-scene="lens"><b>03</b> Линза</button>
+      </nav>
+
+      <section class="scene is-active" id="kinetic" aria-label="Вариант Монтаж">
+        <div class="scene-meta"><span>01 / МОНТАЖ</span><p>Скролл собирает и разрывает кадры, а курсор добавляет лёгкий физический сдвиг.</p></div>
+        <div class="kinetic-stage interaction-stage">
+          <div class="kinetic-title">Россия<br /><em>движется</em></div>
+          <div class="kinetic-sub">Передовая стоковая<br />платформа контента</div>
+          <div class="kinetic-card k-one"><img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=85" alt="Мотоцикл в движении" /></div>
+          <div class="kinetic-card k-two"><img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1200&q=85" alt="Городской пейзаж" /></div>
+          <div class="kinetic-card k-three"><img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=1200&q=85" alt="Фрукты на рынке" /></div>
+          <div class="kinetic-card k-four"><img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=85" alt="Море" /></div>
+          <div class="scroll-word">SCROLL<br /><i></i></div>
+        </div>
+      </section>
+
+      <section class="scene" id="trail" aria-label="Вариант След">
+        <div class="scene-meta"><span>02 / СЛЕД</span><p>Движение курсора оставляет короткий след из кадров. Чем смелее пользователь исследует страницу, тем богаче становится коллаж.</p></div>
+        <div class="trail-stage interaction-stage">
+          <div class="trail-title">Найди<br /><em>свой кадр</em></div>
+          <div class="trail-center"><span>двигай курсором</span><b>↗</b></div>
+          <div class="trail-footer"><span>Фото / Видео / Звук / Шаблоны</span><span>РуСток © 2026</span></div>
+        </div>
+      </section>
+
+      <section class="scene" id="lens" aria-label="Вариант Линза">
+        <div class="scene-meta"><span>03 / ЛИНЗА</span><p>Один сильный кадр. Курсор работает как режиссёрская линза: меняет угол, приближает деталь и показывает следующий сюжет.</p></div>
+        <div class="lens-stage interaction-stage">
+          <div class="lens-photo lens-main"><img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1600&q=90" alt="Люди на концерте" /></div>
+          <div class="lens-copy">Россия<br /><em>в каждом<br />кадре</em></div>
+          <div class="lens-circle"><span>смотри<br />ближе</span></div>
+          <div class="lens-note">01:27 / motion reel</div>
+          <div class="lens-thumb"><img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=700&q=85" alt="Музыкант" /></div>
+        </div>
+      </section>
+
+      <section class="decision"><p>Какой характер у РуСтока?</p><div><button data-scene="kinetic">Смелый монтаж</button><button data-scene="trail">Игривый след</button><button data-scene="lens">Премиальная линза</button></div></section>
+    </main>
+    <script src="motion-lab.js"></script>
+  </body>
+</html>

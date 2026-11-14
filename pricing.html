@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml" />
+    <meta name="description" content="Тарифы РуСток: подписка на библиотеку лицензионного российского контента и разовые лицензии." />
+    <title>Тарифы — РуСток</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="product.css?v=2" />
+    <link rel="stylesheet" href="cart.css?v=2" />
+    <link rel="stylesheet" href="pricing.css?v=2" />
+    <link rel="stylesheet" href="theme.css?v=2" />
+    <link rel="stylesheet" href="ui.css?v=2" />
+  </head>
+  <body>
+    <header class="bar">
+      <a class="brand" href="index.html">РуСток</a>
+      <nav>
+        <a href="catalog.html?type=photo">Фото</a><a href="catalog.html?type=video">Видео</a><a href="catalog.html?type=audio">Звук</a><a href="catalog.html?type=template">Шаблоны</a><a href="courses.html">Курсы</a><a class="active" href="pricing.html">Тарифы</a>
+      </nav>
+    </header>
+
+    <main class="pricing">
+      <section class="pricing-head">
+        <span class="eyebrow">ТАРИФЫ / ПОДПИСКА</span>
+        <h1>Одна подписка —<br /><em>весь каталог.</em></h1>
+        <p>Скачивайте лицензионные фото, видео, звук и шаблоны без ограничений по проектам. Оплата в рублях, закрывающие документы для юрлиц, отмена в любой момент.</p>
+        <span class="pricing-note">Цены в рублях, НДС включён. Подписка продлевается автоматически, отменить можно в личном кабинете.</span>
+      </section>
+
+      <section class="plans" id="plans" aria-label="Тарифы подписки">
+        <article class="plan">
+          <div class="plan-head"><span class="eyebrow">START</span><span class="plan-audience">Фрилансерам</span></div>
+          <div class="plan-price"><strong>900 ₽</strong><span>в месяц</span></div>
+          <ul>
+            <li>100 скачиваний в месяц</li>
+            <li>Фото, видео, звук и шаблоны</li>
+            <li>Базовые фильтры и поиск</li>
+            <li>Лицензия для цифровых проектов</li>
+          </ul>
+          <a class="buy" href="checkout.html?plan=start">Подключить Start <span>→</span></a>
+        </article>
+
+        <article class="plan is-featured">
+          <div class="plan-head"><span class="eyebrow">PRO</span><span class="plan-audience">Командам</span></div>
+          <div class="plan-price"><strong>1 900 ₽</strong><span>в месяц</span></div>
+          <ul>
+            <li>500 скачиваний в месяц</li>
+            <li>AI-теги и умный поиск</li>
+            <li>Аналитика скачиваний</li>
+            <li>Расширенная лицензия на выбор</li>
+            <li>Приоритетная поддержка</li>
+          </ul>
+          <a class="buy" href="checkout.html?plan=pro">Подключить Pro <span>→</span></a>
+        </article>
+
+        <article class="plan">
+          <div class="plan-head"><span class="eyebrow">ENTERPRISE</span><span class="plan-audience">Корпорациям</span></div>
+          <div class="plan-price"><strong>от 4 500 ₽</strong><span>в месяц</span></div>
+          <ul>
+            <li>Неограниченные скачивания</li>
+            <li>Корпоративная лицензия и SLA</li>
+            <li>Закрывающие документы для бухгалтерии</li>
+            <li>Персональный менеджер</li>
+            <li>Годовой контракт</li>
+          </ul>
+          <a class="buy" href="checkout.html?plan=enterprise">Обсудить условия <span>→</span></a>
+        </article>
+      </section>
+
+      <section class="payg">
+        <div>
+          <span class="eyebrow">РАЗОВАЯ ПОКУПКА</span>
+          <h2>Нужен один материал?</h2>
+          <p>Купите лицензию на конкретный кадр без подписки — от 190 ₽ за звук и от 690 ₽ за фото. Корзина и оплата работают так же, как в каталоге.</p>
+        </div>
+        <a class="buy" href="catalog.html?type=photo">Открыть каталог <span>→</span></a>
+      </section>
+
+      <section class="faq" id="faq" aria-label="Вопросы о подписке">
+        <span class="eyebrow">ЧАСТЫЕ ВОПРОСЫ</span>
+        <details open>
+          <summary>Что считается скачиванием?</summary>
+          <p>Один материал, скачанный один раз. Повторное скачивание того же файла в течение подписки лимит не расходует.</p>
+        </details>
+        <details>
+          <summary>Можно ли использовать материалы в рекламе и мерче?</summary>
+          <p>На Start действует стандартная лицензия для цифровых проектов. На Pro доступна расширенная лицензия, на Enterprise — корпоративная, включая наружные носители и печать.</p>
+        </details>
+        <details>
+          <summary>Как получить закрывающие документы?</summary>
+          <p>Укажите ИНН при оформлении — счёт, акт и лицензионный договор формируются на юридическое лицо. На Enterprise документы готовит персональный менеджер.</p>
+        </details>
+        <details>
+          <summary>Что будет после отмены подписки?</summary>
+          <p>Доступ к скачиванию закроется в конце оплаченного периода. Материалы, скачанные по лицензии, остаются у вас на условиях выданной лицензии.</p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="pricing-footer">
+      <a class="brand" href="index.html">РуСток</a>
+      <p>Лицензионный контент, снятый в России.</p>
+      <div><a href="catalog.html?type=photo">Каталог</a><a href="generate.html">Генерация</a><a href="courses.html">Курсы</a></div>
+    </footer>
+
+    <script src="data.js?v=5"></script>
+      <script src="ui.js?v=2"></script>
+  </body>
+</html>

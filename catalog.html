@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml" />
+    <meta name="description" content="Каталог лицензионного контента РуСток: фото, видео, звук и шаблоны." />
+    <title>Каталог — РуСток</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="product.css?v=2" />
+    <link rel="stylesheet" href="cart.css?v=2" />
+    <link rel="stylesheet" href="catalog.css?v=2" />
+    <link rel="stylesheet" href="theme.css?v=2" />
+    <link rel="stylesheet" href="ui.css?v=2" />
+  </head>
+  <body>
+    <header class="bar">
+      <a class="brand" href="index.html">РуСток</a>
+      <nav>
+        <a href="catalog.html?type=photo">Фото</a><a href="catalog.html?type=video">Видео</a><a href="catalog.html?type=audio">Звук</a><a href="pricing.html">Тарифы</a><a href="generate.html">Генерация</a><a href="courses.html">Курсы</a>
+      </nav>
+      <button class="cart-button" id="cart-button" type="button">Корзина <b id="cart-count">0</b></button>
+    </header>
+
+    <main>
+      <section class="product-head">
+        <div class="eyebrow">БИБЛИОТЕКА РУССКОГО КОНТЕНТА</div>
+        <h1 id="catalog-title">Найдите <em>своё.</em></h1>
+        <form class="catalog-search" id="catalog-search">
+          <label class="sr-only" for="catalog-query">Поиск по библиотеке</label>
+          <input id="catalog-query" placeholder="Поиск по библиотеке" autocomplete="off" />
+          <button type="submit">Найти</button>
+        </form>
+      </section>
+      <a class="sub-strip" href="pricing.html">
+        <span class="eyebrow">ПОДПИСКА</span>
+        <strong>Весь каталог от 900 ₽/мес</strong>
+        <small>100 скачиваний, отмена в любой момент</small>
+        <b>Сравнить тарифы →</b>
+      </a>
+      <nav class="filter-row">
+        <a class="filter" data-type="photo" href="?type=photo">Фото</a>
+        <a class="filter" data-type="video" href="?type=video">Видео</a>
+        <a class="filter" data-type="audio" href="?type=audio">Звук</a>
+        <a class="filter" data-type="template" href="?type=template">Шаблоны</a>
+      </nav>
+      <section class="asset-grid" id="asset-grid" aria-label="Материалы каталога"></section>
+    </main>
+
+    <div class="cart-backdrop" id="cart-backdrop"></div>
+    <aside class="cart-panel" id="cart-panel" aria-label="Корзина">
+      <button class="cart-close" id="cart-close" aria-label="Закрыть корзину">×</button>
+      <span class="eyebrow">ВАША КОРЗИНА</span>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-total"><span>Итого</span><strong id="cart-total">0 ₽</strong></div>
+      <button class="cart-checkout" id="checkout">Оформить черновик</button>
+      <p class="cart-hint">Прототип: заказ не отправляется и не оплачивается.</p>
+    </aside>
+
+    <script src="data.js?v=5"></script>
+    <script src="catalog.js?v=2"></script>
+      <script src="ui.js?v=2"></script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml" />
+    <meta name="description" content="Материал библиотеки РуСток: превью, автор и условия лицензии." />
+    <title>Материал — РуСток</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="product.css?v=2" />
+    <link rel="stylesheet" href="cart.css?v=2" />
+    <link rel="stylesheet" href="asset.css?v=3" />
+    <link rel="stylesheet" href="theme.css?v=2" />
+    <link rel="stylesheet" href="ui.css?v=2" />
+  </head>
+  <body>
+    <header class="bar">
+      <a class="brand" href="index.html">РуСток</a>
+      <nav>
+        <a href="catalog.html?type=photo">Фото</a><a href="catalog.html?type=video">Видео</a><a href="catalog.html?type=audio">Звук</a><a href="catalog.html?type=template">Шаблоны</a><a href="pricing.html">Тарифы</a><a href="courses.html">Курсы</a>
+      </nav>
+    </header>
+
+    <main class="asset-page">
+      <nav class="crumbs" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a><span>/</span><a href="catalog.html?type=photo" id="crumb-type">Каталог</a><span>/</span><span id="crumb-name">Материал</span>
+      </nav>
+
+      <section class="asset-main" id="asset-main">
+        <figure class="asset-preview">
+          <img id="preview-image" src="" alt="" data-skeleton />
+          <button class="preview-zoom" id="open-lightbox" type="button">Развернуть <span>↗</span></button>
+          <figcaption id="preview-caption"></figcaption>
+        </figure>
+
+        <div class="asset-panel">
+          <div class="eyebrow" id="asset-eyebrow"></div>
+          <h1 id="asset-title"></h1>
+
+          <div class="author-row">
+            <span class="author-avatar" id="author-avatar"></span>
+            <div class="author-text"><strong id="author-name"></strong><small id="author-city"></small></div>
+            <a class="author-link" href="author.html">Студия автора ↗</a>
+          </div>
+
+          <div class="asset-actions">
+            <button class="fav-btn" id="fav-asset" type="button" data-fav aria-pressed="false">
+              <span data-fav-glyph>♡</span>
+              <span data-fav-label>В избранное</span>
+            </button>
+          </div>
+
+          <p class="asset-about" id="asset-about"></p>
+
+          <fieldset class="license-block">
+            <legend class="eyebrow">Выберите лицензию</legend>
+            <div class="license-options" id="license-options"></div>
+          </fieldset>
+
+          <div class="buy-row">
+            <div class="price"><span>Итого за лицензию</span><strong id="asset-price">—</strong></div>
+            <button class="buy" id="add-to-cart">Добавить в корзину <span>→</span></button>
+          </div>
+          <p class="license-note" id="license-note"></p>
+
+          <div class="sub-cta">
+            <span class="eyebrow">ВХОДИТ В ПОДПИСКУ</span>
+            <p>Этот материал доступен на тарифах Start и Pro — от 900 ₽/мес за весь каталог.</p>
+            <a class="ghost" href="pricing.html">Сравнить тарифы →</a>
+          </div>
+
+          <dl class="meta-list" id="meta-list"></dl>
+        </div>
+      </section>
+
+      <section class="not-found" id="not-found" hidden>
+        <span class="eyebrow">МАТЕРИАЛ НЕ НАЙДЕН</span>
+        <h1>Такого кадра<br /><em>пока нет.</em></h1>
+        <p>Возможно, ссылка устарела. Вернитесь в каталог и выберите материал заново.</p>
+        <a class="buy" href="catalog.html?type=photo">Открыть каталог <span>→</span></a>
+      </section>
+
+      <section class="related" id="related">
+        <div class="related-head">
+          <div><span class="eyebrow">СМОТРИТЕ ДАЛЬШЕ</span><h2>Похожие <em>материалы</em></h2></div>
+          <a class="related-all" href="catalog.html?type=photo" id="related-all">Весь каталог →</a>
+        </div>
+        <div class="related-grid" id="related-grid"></div>
+      </section>
+    </main>
+
+    <footer class="asset-footer">
+      <a class="brand" href="index.html">РуСток</a>
+      <p>Лицензионный контент, снятый в России.</p>
+      <div><a href="catalog.html?type=photo">Каталог</a><a href="pricing.html">Тарифы</a><a href="generate.html">Генерация</a><a href="courses.html">Курсы</a></div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр материала" hidden>
+      <div class="lightbox-backdrop" data-lightbox-close></div>
+      <div class="lightbox-shell">
+        <div class="lightbox-top">
+          <div class="lightbox-meta">
+            <span class="eyebrow" id="lightbox-eyebrow">—</span>
+            <strong id="lightbox-title">—</strong>
+          </div>
+          <button class="lightbox-close" type="button" aria-label="Закрыть просмотр" data-lightbox-close>×</button>
+        </div>
+        <div class="lightbox-stage">
+          <button class="lightbox-arrow" id="lightbox-prev" type="button" aria-label="Предыдущий материал">←</button>
+          <figure class="lightbox-figure" id="lightbox-figure">
+            <img id="lightbox-image" src="" alt="" />
+            <figcaption><span id="lightbox-caption">—</span><span id="lightbox-counter">1 / 1</span></figcaption>
+          </figure>
+          <button class="lightbox-arrow" id="lightbox-next" type="button" aria-label="Следующий материал">→</button>
+        </div>
+        <div class="lightbox-bottom">
+          <div class="lightbox-price"><span class="eyebrow">ЛИЦЕНЗИЯ</span><strong id="lightbox-price">—</strong></div>
+          <div class="lightbox-actions">
+            <button class="lightbox-zoom" id="lightbox-zoom" type="button">Увеличить</button>
+            <button class="buy" id="lightbox-license" type="button">Выбрать лицензию <span>→</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-backdrop" id="cart-backdrop"></div>
+    <aside class="cart-panel" id="cart-panel" aria-label="Корзина">
+      <button class="cart-close" id="cart-close" aria-label="Закрыть корзину">×</button>
+      <span class="eyebrow">ВАША КОРЗИНА</span>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-total"><span>Итого</span><strong id="cart-total">0 ₽</strong></div>
+      <button class="buy" id="checkout">Оформить черновик</button>
+      <p class="cart-hint">Прототип: заказ не отправляется и не оплачивается.</p>
+    </aside>
+
+    <script src="data.js?v=5"></script>
+    <script src="asset.js?v=3"></script>
+      <script src="ui.js?v=2"></script>
+  </body>
+</html>
